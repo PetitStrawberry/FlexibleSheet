@@ -39,6 +39,7 @@ var body: some View {
         // Sheet contents
         VStack {
             Text("チーz")
+            Text("Cover夫")
         }.padding(10)
     }
     .edgesIgnoringSafeArea(.all)
