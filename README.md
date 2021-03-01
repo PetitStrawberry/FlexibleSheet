@@ -41,7 +41,7 @@ var body: some View {
             Text("チーz")
         }.padding(10)
     }
-    .edgeIgnoreSafeArea(.all)
+    .edgesIgnoringSafeArea(.all)
 }
 ```
 
