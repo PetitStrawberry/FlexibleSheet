@@ -23,7 +23,7 @@ let sheetStyle = BottomSheetStyle(
     corners: .allCorners,
     cornerRadius: 20,
     // Sheetをドラッグした際のアニメーション
-    animation: .interactiveSpring(response: 0.7, dampingFraction: 1.0, blendDuration: 1.0),
+    animation: .interactiveSpring(response: 0.5, dampingFraction: 1.0, blendDuration: 1.0),
     // 背景にするView クロージャーで外に出して設定もできる
     background: Color.white
 )
