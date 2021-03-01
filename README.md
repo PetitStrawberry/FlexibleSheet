@@ -42,6 +42,7 @@ var body: some View {
             Text("Cover夫")
         }.padding(10)
     }
+    .frame(width: .infinity, height: .infinity)
     .edgesIgnoringSafeArea(.all)
 }
 ```
