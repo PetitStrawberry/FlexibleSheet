@@ -8,7 +8,7 @@ Availabale on Swift Package Manager
 
 ## How To Use それっぽいの
 ``` Swift
-@State sheetState: BottomSheetState = .min
+@State var sheetState: BottomSheetState = .min
 
 // Setting BottomSheetStyle
 // background以外は省略可能 省略した場合はデフォルト値になる
